@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VineCrawlAlertView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of VineCrawlAlertView.'
+  s.version          = '1.0'
+  s.summary          = 'A type of alert that stays on the screen'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  I created this type of alert as an easy way to display information to the user without requiring an action from the user.
                        DESC
 
-  s.homepage         = 'https://github.com/15055480/VineCrawlAlertView'
+  s.homepage         = 'https://github.com/joshmon27/VineCrawlAlertView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '15055480' => 'joshwalton5772@gmail.com' }
-  s.source           = { :git => 'https://github.com/15055480/VineCrawlAlertView.git', :tag => s.version.to_s }
+  s.author           = { 'joshmon27' => 'joshwalton5772@gmail.com' }
+  s.source           = { :git => 'https://github.com/joshmon27/VineCrawlAlertView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

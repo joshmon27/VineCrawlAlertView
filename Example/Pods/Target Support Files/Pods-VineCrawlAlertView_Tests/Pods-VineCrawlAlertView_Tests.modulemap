@@ -1,0 +1,6 @@
+framework module Pods_VineCrawlAlertView_Tests {
+  umbrella header "Pods-VineCrawlAlertView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
