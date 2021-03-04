@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VineCrawlAlertView_Example' do
+  pod 'VineCrawlAlertView', :path => '../'
+
+  target 'VineCrawlAlertView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
