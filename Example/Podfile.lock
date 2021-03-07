@@ -1,0 +1,16 @@
+PODS:
+  - VineCrawlAlertView (0.1.0)
+
+DEPENDENCIES:
+  - VineCrawlAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  VineCrawlAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VineCrawlAlertView: 77cf44600115c2e5726fb2618aab1d297ddcef57
+
+PODFILE CHECKSUM: f47c17689e909fde4e48ce6603235dd083c5fc64
+
+COCOAPODS: 1.8.3
